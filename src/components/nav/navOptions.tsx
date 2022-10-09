@@ -3,10 +3,7 @@ const navOptions = [
         name: 'About',
         href: 'about',
     },
-    {
-        name: 'Testimonials',
-        href: 'testimonials',
-    },
+ 
     {
         name: 'Work',
         href: 'work',

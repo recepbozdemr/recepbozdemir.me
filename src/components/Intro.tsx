@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import { Link } from 'react-scroll';
 
+
 const Intro = () => {
     return (
         <motion.div
@@ -12,18 +13,22 @@ const Intro = () => {
             initial={{ y: 40 }}
             transition={{ duration: 0.5 }}
         >
+           
             <p className="text-3xl text-neon font-fira">Hi, my name is</p>
+            
             <h1 className="text-5xl font-extrabold text-text md:text-8xl">
                 {data.name}
             </h1>
             <h2 className="text-4xl text-textDark md:text-6xl">
                 I build amazing websites!
             </h2>
+            
             <p className="w-4/5 md:w-3/5 text-textDark">
                 I&rsquo;m a{' '}
                 <span className="text-neon">{data.profession}. </span>
                 {data.intro}
             </p>
+             
             <div className="flex space-x-3">
                 <Link
                     activeClass="active"
@@ -52,7 +57,9 @@ const Intro = () => {
                         Check out my work!
                     </button>
                 </Link>
+                
             </div>
+            
         </motion.div>
     );
 };

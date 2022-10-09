@@ -1,10 +1,10 @@
 {
-    "name": "Avneesh Agarwal",
-    "image": "/me.png",
-    "profession": "FullStack web developer",
+    "name": "Recep BOZDEMİR",
+    "image": "/recep.jpg",
+    "profession": "Full Stack Web Developer",
     "intro": "Focused on building products that will make people's lives better. I also create content in form of blogs and threads. I love to learn new things and I am always open to learn new technologies.",
-    "about": "I am a full-stack web developer who loves to design and develop beautiful websites. I have been coding for over a year and enjoying every part of my journey. I love documenting my journey by writing blog posts and teaching others through my writing.",
-    "website": "https://www.avneesh.tech",
+    "about": "I am a Full-Stack Web Developer who loves to design and develop beautiful websites. I have been coding for over a year and enjoying every part of my journey. I love documenting my journey by writing blog posts and teaching others through my writing.",
+    "website": "https://www.recepbozdemir.me",
     "skills": [
         {
             "src": "/logos/react.svg",
